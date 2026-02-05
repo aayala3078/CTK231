@@ -1,0 +1,34 @@
+h1{
+    color: darkred;
+    background-color: lightgray;
+}
+
+h2{
+    color: red;
+    background-color: lightyellow;
+}
+
+h3{
+    color: darkblue;
+    background-color: lightcyan;
+}
+
+.turnorange{
+    color: orange;
+}
+
+.intro{
+    color: deeppink;
+}
+
+:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a{
+   color: red
+}
