@@ -1,5 +1,5 @@
 body{
-    background: url("windows.jpg");
+    background: url("assets/images/windows.jpg")
 }
 
 #wrapper{
@@ -46,4 +46,14 @@ nav li a{
 
 nav li a:hover{
     background-color: darkgrey;
+}
+
+#myCarousel {
+  margin-bottom: 24px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
 }
