@@ -1,0 +1,165 @@
+body{
+    margin:0;
+    background:url("windows.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "argent-pixel-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    background:linear-gradient(#1f7ec8,#0b4ea2);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+header h1 a{
+    color: #03c600;;
+    text-decoration:none;
+    font-style:italic;
+    text-align: left;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: linear-gradient(#1c86d1, #0b4ea2);
+    border-bottom: 3px solid #083a82;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display: flex;
+}
+
+nav li{
+    flex: 1;
+    text-align: center;
+    border-right: 3px solid #0b4ea2;
+}
+
+nav a{
+    display:block;
+    padding:12px 0;
+    background:linear-gradient(#2b8bd6,#0d58b6);
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover{
+    background:#063a7a;
+    color:#ffd;
+}
+
+main{
+    display:flex;
+    width:90%;
+    background:rgb(226, 226, 226);
+}
+
+.wrapper{
+    width:1000px;
+    margin:40px auto;
+    background:rgb(226, 226, 226);
+    border:4px solid #1a4fb0;
+}
+
+.left{
+    width:35%;
+    background:rgb(252, 237, 140);
+    padding:20px;
+    font-weight: bold;
+}
+
+.right{
+    width:65%;
+    padding:20px;
+}
+
+.left h2,
+.right h2{
+    color:#003399;
+    border-bottom:3px solid #003399;
+}
+
+.justify{
+    text-align:justify;
+}
+
+.right img{
+    width:100%;
+    border:4px solid #0b4ea2;
+    margin:15px 0;
+}
+
+.redtext{
+    color:black;
+    font-weight:bold;
+}
+
+footer{
+    background:darkblue;
+    text-align:center;
+    padding:20px;
+}
+
+footer img{
+    height:70px;
+}
+
+main{
+display: flex;
+}
+
+.main-left{
+    width:70%;
+    background:rgb(226, 226, 226);
+    padding:20px;
+}
+
+.main-right{
+    width:30%;
+    background:rgb(252, 237, 140);
+    padding:20px;
+    font-weight:bold;
+}
+
+.main-left img{
+    display:block;
+    margin:20px auto;
+    border:4px solid #1f4fb0;
+}
+
+.gallery{
+    display:flex;
+    gap:25px;
+    padding:20px;
+}
+
+.card{
+    flex:1;
+}
+
+.card img{
+    width:100%;
+    border:4px solid #1f4fb0;
+    margin:15px 0;
+}
+
+.card h2{
+    border-bottom:3px solid #1f4fb0;
+    padding-bottom:5px;
+    color:#1f4fb0;
+}
